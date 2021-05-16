@@ -11,9 +11,11 @@
     A website with a list of Resources and Hospitals during the Pandemic within Mumbai and Suburban Mumbai Region.
     <br />
     <br />
+    .
     <a href="https://github.com/medhavisinha/Covid-19-Resources/issues">Report Bug</a>
     ·
     <a href="https://github.com/medhavisinha/Covid-19-Resources/issues">Request Feature</a>
+    .
   </p>
 </p>
 
