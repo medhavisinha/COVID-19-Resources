@@ -1,11 +1,11 @@
-# Covid-19-Resources
+# Covid-19 Resources
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
 <!-- Project Name -->
- <h3 align="center">Covid-19-Resources</h3>
+ <h3 align="center">Covid-19 Resources</h3>
 
   <p align="center">
     A website with a list of Resources and Hospitals during the Pandemic within Mumbai and Suburban Mumbai Region.
