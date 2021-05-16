@@ -13,5 +13,5 @@
 [stars-url]: https://github.com/medhavisinha/Covid-19-Resources/stargazers
 [issues-shield]: https://img.shields.io/github/issues/medhavisinha/Covid-19-Resources.svg?style=for-the-badge
 [issues-url]: https://github.com/medhavisinha/Covid-19-Resources/issues
-[license-shield]: https://img.shields.io/github/medhavisinha/Covid-19-Resources.svg?style=for-the-badge
+[license-shield]: https://img.shields.io/github/medhavisinha/Covid-19-Resources/License-GPLv3-blue.svg?style=for-the-badge
 [license-url]: https://github.com/medhavisinha/Covid-19-Resources/main/LICENSE.txt
