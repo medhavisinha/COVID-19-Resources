@@ -8,7 +8,7 @@
  <h3 align="center">Covid-19-Resources</h3>
 
   <p align="center">
-    A wesbite README template to jumpstart your projects!
+    A website with a list of Resources and Hospitals during the Pandemic within Mumbai and Suburban Mumbai Region.
     <br />
     <br />
     <a href="https://github.com/medhavisinha/Covid-19-Resources/issues">Report Bug</a>
