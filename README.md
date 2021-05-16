@@ -36,6 +36,22 @@
   </ol>
 </details>
 
+<!-- ABOUT THE PROJECT -->
+## About The Project
+
+There are many websites available on the internet regarding Covid-19 and the resources, however, we didn't find one that really covered hospitals and resources in Mumbai and Suburban Mumbai region. Therefore, we wanted to created this project in order to provide people with everything they need during this pandemic period at once place- beds, vaccines, oxygen tanks etc.
+
+ The top features in our project are:
+* You can view the availability of hospitals with one single click. 
+* You can update the resources present in hospitals or add hospitals by logging-in or signing up.
+
+### Built With
+
+We used following languages mainly for our website:
+* HTML (for front-end)
+* CSS (for front-end)
+* Python (for complete back-end)
+
 [contributors-shield]: https://img.shields.io/github/contributors/medhavisinha/Covid-19-Resources.svg?style=for-the-badge
 [contributors-url]: https://github.com/medhavisinha/Covid-19-Resources/contributors
 [forks-shield]: https://img.shields.io/github/forks/medhavisinha/Covid-19-Resources.svg?style=for-the-badge
@@ -44,4 +60,3 @@
 [stars-url]: https://github.com/medhavisinha/Covid-19-Resources/stargazers
 [issues-shield]: https://img.shields.io/github/issues/medhavisinha/Covid-19-Resources.svg?style=for-the-badge
 [issues-url]: https://github.com/medhavisinha/Covid-19-Resources/issues
-
