@@ -3,7 +3,7 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-[![GNU License][license-shield]][license-url]
+[![GNU General Public License v3.0 License][license-shield]][license-url]
 
 [contributors-shield]: https://img.shields.io/github/contributors/medhavisinha/Covid-19-Resources.svg?style=for-the-badge
 [contributors-url]: https://github.com/medhavisinha/Covid-19-Resources/contributors
