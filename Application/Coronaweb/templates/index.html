@@ -1,0 +1,278 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://kit.fontawesome.com/42575f5eb5.js" crossorigin="anonymous"> </script>
+
+    <script src="https://kit.fontawesome.com/d22ad880cf.js" crossorigin="anonymous"> </script>
+
+    <link rel="stylesheet" 
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+          integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+          crossorigin="anonymous"
+    >
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    >
+    </script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    >
+    </script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"> </script>
+
+    <script src="ChartJS/Chart.js"> </script>
+
+    <link href="ChartJS/Chart.css" type="text/css" rel="stylesheet">
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='stylesheet.css') }}">
+
+    <title> COVID-19 Resources </title>
+
+  </head>
+  
+  <body style="background-color:hsl(168, 36%, 66%);">
+
+    <div class="topnav">
+      <a class="active" href="{{ url_for('home') }}"> Home </a>
+      <div class="login-container">
+
+  
+            <a href="{{ url_for('login') }}">Login</a>
+  
+            <a href="{{ url_for('register') }}">Register</a>
+  
+         
+
+      </div>
+  </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <header class="pt-5">
+            <h1>
+              <i class="fas fa-virus fa-1x mr-3 fa-pulse" id = virus></i>COVID-19 Resources
+            </h1>
+            <p class="mb-5">
+              Providing with a list of Resources and Hospitals during the Coronavirus (Covid-19) 
+              Outbreak within Mumbai and Suburban Mumbai Region.
+            </p>
+            <hr />
+          </header>
+        </div>
+      </div>
+
+      <a href = "{{ url_for('resources') }}"> <button> Check Hospital Resources </button></a>
+      <br>
+      <hr/>
+
+      <div class="row">
+        <div class="col-12 d-flex justify-content-center">
+          <h2 style="color:rgb(73, 71, 71);"> Precautions:</h2>
+        </div>
+      </div>
+      <br>
+      
+     <h5 style="color:rgb(2, 2, 2);">
+        1. Wash your hands frequently and carefully:
+     </h5> <br>
+      
+        <h6 style="color:rgb(56, 56, 56);">
+          ○ Use warm water and soap and rub your hands for at least 20 seconds. 
+            <br><br>
+          ○ Work the lather to your wrists, between your fingers, and under your fingernails. You can also use an antibacterial and antiviral soap.
+            <br><br>
+          ○ Use hand sanitizer when you cannot wash your hands properly. Rewash your hands several times a day, especially after touching anything, including your phone or laptop.
+            <br><br>
+        </h6>
+
+       <h5 style="color:rgb(2, 2, 2);">
+          2. Avoid touching your face:
+       </h5> <br>
+
+        <h6 style="color:rgb(56, 56, 56);">
+          ○ SARS CoV-2 can live on some surfaces for up to 72 hours. You can get the virus on your hands if you touch a surface like: gas pump handle, your cell phone, 
+          a doorknob.
+            <br><br>
+          ○ Avoid touching any part of your face or head, including your mouth, nose, and eyes. Also avoid biting your fingernails. This can give SARS CoV-2 a chance to go from your hands into your body.
+            <br><br>
+
+       <h5 style="color:rgb(2, 2, 2);">
+          3. Stop shaking hands and hugging people, for now:
+       </h5> <br>
+
+          <h6 style="color:rgb(56, 56, 56);">
+            ○ Avoid touching other people. Skin-to-skin contact can transmit SARS CoV-2 from one person to another.
+            <br><br>
+          </h6>
+
+        <h5 style="color:rgb(2, 2, 2);">  
+            4. Do not share personal items like:
+            <br><br>
+        </h5>
+
+          <h6 style="color:rgb(56, 56, 56);">
+            ○ Phones
+              <br><br>
+            ○ Makeup
+              <br><br>
+            ○ Combs
+              <br><br>
+            It’s also important not to share eating utensils and straws. 
+              <br><br>
+            Teach children to recognize their reusable cup, straw, and other dishes for their own use only.
+              <br><br>
+
+        <h5 style="color:rgb(2, 2, 2);">
+            5. Cover your mouth and nose when you cough and sneeze:
+            <br>
+            <br>
+        </h5>
+
+            <h6 style="color:rgb(56, 56, 56);">
+              SARS CoV-2 is found in high amounts in the nose and mouth. 
+                <br><br>
+              This means it can be carried by air droplets to other people when you cough, sneeze, or talk.
+                <br><br>
+              It can also land on hard surfaces and stay there for up to 3 days.
+                <br><br>
+              Use a tissue or sneeze into your elbow to keep your hands as clean as possible. 
+                <br><br>
+              Wash your hands carefully after you sneeze or cough, regardless. 
+                <br><br>
+            </h6>
+              
+          <h5 style="color:rgb(2, 2, 2);">
+              6. Clean and disinfect surfaces:
+              <br> <br>
+          </h5>
+
+            <h6 style="color:rgb(56, 56, 56);">
+              Use alcohol-based disinfectants to clean hard surfaces in your home like:-
+                <br><br>
+              ○ Countertops
+                <br><br>
+              ○ Door Handles
+                <br><br>
+              ○ Furniture
+                <br><br>
+              ○ Toys
+                <br><br>
+              ○ Also, clean your phone, laptop, and anything else you use regularly several times a day.
+                <br><br>
+              ○ Disinfect areas after you bring groceries or packages into your home.
+                <br><br>
+              ○ Use white vinegar or hydrogen peroxide solutions for general cleaning in between disinfecting surfaces.
+                <br><br>
+            </h6>
+              
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="mt-5 pt-5 pb-5 footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-5 col-xs-12 about-this-project">
+              <h2 id = about>About this project:</h2>
+              <p>
+                With the rising cases in India, we wanted to make people aware about the resources nearby them.
+                <br>
+                We wanted to contribute towards helping people in this hard time by providing them with all possible data in one place.
+                <br>
+                All data for tracking cases in this COVID-19 Resource page has been taken in reference through the homepage of Government's Website "MyGov"
+                (<a href="https://www.mygov.in/covid-19/" target="new">https://www.mygov.in/covid-19/</a>).
+                <br>
+                Source Code of the same can be found on our Github profiles ->
+                <a href="https://github.com/medhavisinha" target="new">Medhavi Sinha</a>,
+                <a href="https://github.com/NotDhruvK" target="new">Dhruv Kadam</a>,
+                <a href="https://github.com/sharmadityaa" target="new">Aditya Sharma</a>.
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <h2 class="mt-lg-0 mt-sm-4">Contributors:</h2>
+            <div class="d-flex flex-wrap align-content-around">
+              <div class="center contributor">
+                <div>
+                  <a target="_blank" href="https://github.com/medhavisinha">
+                    <img src="https://github.com/medhavisinha.png" alt="Avatar" class="avatar" />
+                  </a>
+                </div>
+                Medhavi Sinha
+              </div>
+              <div class="center contributor">
+                <div>
+                  <a target="_blank" href="https://github.com/NotDhruvK">
+                    <img src="https://github.com/NotDhruvK.png" alt="Avatar" class="avatar" />
+                  </a>
+                </div>
+                Dhruv Kadam
+              </div>
+              <div class="center contributor">
+                <div>
+                  <a target="_blank" href="https://github.com/sharmadityaa">
+                    <img src="https://github.com/sharmadityaa.png" alt="Avatar" class="avatar" />
+                  </a>
+                </div>
+                Aditya Sharma
+              </div>
+              <div class="center contributor">
+                <div>
+                  <a target="_blank" href="https://github.com/NotDhruvK">
+                    <img src="https://github.com/NotDhruvK.png" alt="Avatar" class="avatar" />
+                  </a>
+                </div>
+              <h2>Contact us at:</h2>
+              <p>
+                Medhavi Sinha:
+                <br>
+                <i class="fa fa-envelope-o mr-3"></i><a href="mailto:onemoremedhavi@gmail.com"
+                  style="color: white;">onemoremedhavi@gmail.com</a>
+              </p>
+              <p>
+                Dhruv Kadam:
+                <br>
+                <i class="fa fa-envelope-o mr-3"></i><a href="mailto:dhruvadam@gmail.com"
+                  style="color: white;">dhruvadam@gmail.com</a>
+              </p>
+              <p>
+                Aditya Sharma:
+                <br>
+                <i class="fa fa-envelope-o mr-3"></i><a href="mailto:sharmadityaa23@gmail.com"
+                  style="color: white;">sharmadityaa23@gmail.com</a>
+              </p>
+            </div>
+          </div>
+          <div class="row mt-5">
+            <div class="col copyright">
+              <p class="">
+                <small class="text-white-50">Open source project under the GNU public licence V3.0</small>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="app.js"></script>
+    
+  </body>
+</html>
