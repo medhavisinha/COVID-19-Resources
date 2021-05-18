@@ -44,7 +44,7 @@ There are many websites available on the internet regarding Covid-19 and the res
 
  The top features in our project are:
 * You can view the availability of hospitals with one single click. 
-* You can update the resources present in hospitals or add hospitals by logging-in or signing up.
+* You can update the resources present in hospitals or add hospitals by logging-in or signing up respectively.
 
 ### Built With
 
