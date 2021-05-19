@@ -53,6 +53,17 @@ We used following languages mainly for our website:
 * CSS (for front-end)
 * Python (for complete back-end)
 
+
+
+<!-- GETTING STARTED -->
+## Getting Started
+
+For getting started with this project, one needs to install the following softwares to start with the project locally:
+
+### Prerequisites
+
+* You'll need a brief knowledge for HTML, CSS and Python programming languages.
+
 [contributors-shield]: https://img.shields.io/github/contributors/medhavisinha/Covid-19-Resources.svg?style=for-the-badge
 [contributors-url]: https://github.com/medhavisinha/Covid-19-Resources/contributors
 [forks-shield]: https://img.shields.io/github/forks/medhavisinha/Covid-19-Resources.svg?style=for-the-badge
