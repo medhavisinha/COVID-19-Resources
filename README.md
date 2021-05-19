@@ -40,7 +40,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-There are many websites available on the internet regarding Covid-19 and the resources, however, we didn't find one that really covered hospitals and resources in Mumbai and Suburban Mumbai region at one place. Therefore, we wanted to created this project in order to provide people with everything they need during this pandemic period at once place- beds, vaccines, oxygen tanks etc.
+There are many websites available on the internet regarding Covid-19 and the resources, however, we didn't find one that really covered hospitals and resources in Mumbai and Suburban Mumbai region at one place. Therefore, we wanted to create this project in order to provide people with everything they need during this pandemic period at once place- beds, vaccines, oxygen tanks etc.
 
  The top features in our project are:
 * You can view the availability of hospitals with one single click. 
