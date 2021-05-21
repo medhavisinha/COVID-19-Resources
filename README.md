@@ -63,6 +63,7 @@ For getting started with this project, one needs to install the following softwa
 ### Prerequisites
 
 * You'll need a brief knowledge for HTML, CSS and Python programming languages.
+* Installation of Flask
 
 [contributors-shield]: https://img.shields.io/github/contributors/medhavisinha/Covid-19-Resources.svg?style=for-the-badge
 [contributors-url]: https://github.com/medhavisinha/Covid-19-Resources/contributors
