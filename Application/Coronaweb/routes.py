@@ -3,13 +3,11 @@ from Coronaweb import app, db, bcrypt
 from flask import render_template, url_for, flash, redirect, request, session
 from Coronaweb.models import Hospital
 
-
 #Home page route
 @app.route('/')
 @app.route('/home')
 def home():
     return render_template('index.html')
-
 
 #Login page route
 @app.route('/login', methods=["GET", "POST"])
@@ -34,7 +32,6 @@ def login():
     else:
         #This is for the "GET" request
         return render_template('login.html')
-
 
 #Sign-up page route
 @app.route('/sign_up', methods=['GET','POST'])
@@ -68,7 +65,6 @@ def register():
         #This is for the "GET" request
         return render_template('signup.html')
 
-
 #Resources page route
 @app.route('/resources')
 def resources():
@@ -77,7 +73,6 @@ def resources():
     #Getting the required number of hospitals as per the paginate request
     hospitals = Hospital.query.paginate(page=page, per_page=4)
     return render_template('hospitals.html', hospitals=hospitals)
-
 
 #Update page route
 @app.route('/update', methods=["GET", "POST"])
@@ -111,11 +106,9 @@ def update():
             #This is for the "GET" request
             return render_template('resources_input.html')
 
-
 #This is what happens when the user clicks on the 'logout' button
 @app.route('/logout')
 def logout():
     #Deleteing all the data in the session
     session.pop('email')
     return redirect(url_for('home'))
-
